@@ -1,0 +1,73 @@
+  [1m[35m (495.8ms)[0m  [1m[35mCREATE DATABASE "rails_na_pratica_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE DATABASE "rails_na_pratica_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (271.6ms)[0m  [1m[35mCREATE DATABASE "rails_na_pratica_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for 10.0.2.2 at 2019-06-17 10:47:43 -0300
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (16.6ms)
+Completed 200 OK in 58ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-06-17 11:00:10 -0300
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2017ms (Views: 1986.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-06-17 12:03:09 -0300
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1229ms (Views: 1188.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2019-06-17 12:16:14 -0300
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 1093ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/vagrant/Curso_Rails/rails_na_pratica/app/assets/config
+  /home/vagrant/Curso_Rails/rails_na_pratica/app/assets/images
+  /home/vagrant/Curso_Rails/rails_na_pratica/app/assets/javascripts
+  /home/vagrant/Curso_Rails/rails_na_pratica/app/assets/stylesheets
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionview-5.2.3/lib/assets/compiled
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/vagrant/Curso_Rails/rails_na_pratica/node_modules
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /home/vagrant/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3367741925055017336_70081589469200'
+Started GET "/" for 10.0.2.2 at 2019-06-17 12:30:08 -0300
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 4104ms (Views: 4062.9ms | ActiveRecord: 0.0ms)
+
+
